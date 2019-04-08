@@ -1,0 +1,31 @@
+@media(min-width:0){
+	.row{
+		margin-right:0 !important;
+	}
+}
+@media(max-width: 425px){
+	.carousel-caption h1,h2{
+		font-size: 30px !important;
+		min-width: 260px;
+	}
+}
+@media(max-width:438px){
+	.container-fluid b,i{
+		font-size:20px;  	
+	}
+	b.cccs21{
+		font-size: 30px !important;
+	}
+	div.carousel-caption{
+		 bottom:-5%;
+
+	}
+	.container-fluid img{
+		width: 42px;
+		height: 42px;
+	}
+	
+}
+@media(){
+
+}
