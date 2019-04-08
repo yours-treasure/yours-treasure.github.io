@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <HTML lang="uk">
+ <HTML lang="uk" class="html2">
 <head>
  <meta charset="UTF-8">
  <link rel="stylesheet" type="text/css" href="style.css">
