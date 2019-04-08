@@ -30,3 +30,9 @@
 	 	display: block;
 	 }
 }
+@media(max-width:768px ){
+	.carousel-caption img{
+		transform:translateY(50%);
+		 transform:translateX(25%);
+	}
+}
