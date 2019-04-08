@@ -1,6 +1,9 @@
 html{
 	height: 1400px;
 }
+.container-lg, .px-3, .my-5 ,.markdown-body{
+	display: none;
+}
 body{
 	height:900px;
 	
