@@ -62,10 +62,10 @@ div.collapse li > ul li ul{
 	color:#004444!important;  
 }
 .display-3{
-font-family: 'Poppins', cursive;
+font-family: 'Permanent Marker', cursive;
 }
 h2{
-	font-family: 'Poppins', cursive !important;
+	font-family: 'Permanent Marker', cursive !important;
 }
 .jumbotron {
   background-color:#DCDCDC !important;
@@ -92,3 +92,4 @@ background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-2
 background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
