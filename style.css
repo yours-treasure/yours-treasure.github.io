@@ -95,3 +95,11 @@ background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, F
 .img-lg-screen{
   display: none;
 }
+.new_main{
+	width: 100%;
+	height:initial;
+	background: #FAF0E6;
+}
+.img_new img{
+	float:right;
+}
