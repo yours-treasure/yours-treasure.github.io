@@ -9,9 +9,9 @@
 		min-width: 260px;
 	}
 }
-@media(max-width:438px){
+@media(max-width:1114px){
 	.container-fluid b,i{
-		font-size:20px;  	
+		font-size:22px;  	
 	}
 	b.cccs21{
 		font-size: 30px !important;
@@ -35,4 +35,23 @@
 		transform:translateY(50%);
 		 transform:translateX(-35%);
 	}
+}
+@media(max-width:992px ){
+    .col-sm-6{
+    	max-width:992px !important;
+
+    }
+    .row{
+    	margin: 0 0 0 40px !important;
+    }
+}
+@media(max-width:768px){
+  a.topbutton{
+  	display: none;
+  }
+}
+@media(max-width:360px){
+	.row{
+    	margin: 0 0 0 -8px !important;
+    }
 }

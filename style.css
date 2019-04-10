@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Anton|Permanent+Marker')
+@import url('https://fonts.googleapis.com/css?family=Anton|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 body,html{
 	width: 100%;
 	height:1366px;
@@ -86,20 +88,55 @@ h2{
  display: block !important; 
 }
 }
- .carousel-caption p .btn{
+/* .carousel-caption p .btn{
   background: #DA4453;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+ /*background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*}*/
+button.dsc.btn{
+	background: #FFB75E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .img-lg-screen{
   display: none;
 }
-.new_main{
-	width: 100%;
-	height:initial;
-	background: #FAF0E6;
+
+div.col-md-3 ul li ul{
+	display:none;
+	  position:static; 
+
+
 }
-.img_new img{
-	float:right;
+div.col-md-3 ul li:hover ul {
+  display: block;
+
 }
+ul *{
+	list-style-type: none;
+}
+ul li a img{
+	border-radius: 1em;
+    position:static;
+}
+.topbutton {
+width:32px;
+height:32px;
+border:2px solid #000;
+background:#000;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color:#000;
+font-family:verdana;
+font-size:12px;
+border-radius:10px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+} 
